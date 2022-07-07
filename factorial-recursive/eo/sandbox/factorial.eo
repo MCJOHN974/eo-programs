@@ -1,0 +1,9 @@
++package sandbox
+
+[n] > factorial
+  if. > @
+    n.lt 2
+    1
+    times.
+      n
+      factorial (n.minus 1)
